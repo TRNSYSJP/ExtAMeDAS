@@ -18,7 +18,7 @@ Download the installer and the manual from [Releases](https://github.com/TRNSYSJ
 
 | File | Contents |
 |---|---|
-| `ExtAMeDAS-Setup-1.0.0.<build>.exe` | Installer (English / Japanese) |
+| `ExtAMeDAS-Setup-1.0.1.<build>.exe` | Installer (English / Japanese) |
 | `ExtAMeDAS-en-US.html` | Manual (English) |
 | `ExtAMeDAS-ja-JP.html` | Manual (Japanese) |
 
@@ -55,7 +55,7 @@ The station information (station name, latitude, longitude, elevation, kana read
 
 ### Installation
 
-1. Run `ExtAMeDAS-Setup-1.0.0.<build>.exe` (administrator privileges are required) and select the TRNSYS 18 folder (usually `C:\TRNSYS18`).
+1. Run `ExtAMeDAS-Setup-1.0.1.<build>.exe` (administrator privileges are required) and select the TRNSYS 18 folder (usually `C:\TRNSYS18`).
 2. The Type99-AMeDAS component is added to **Quattro > Weather Data Reading and Processing > Standard Format with Map > Japan** in the Direct Access Toolbar of Simulation Studio.
 3. Open the component, click the magic stick button, and set the standard year file in **Preferences**.
 
@@ -103,7 +103,7 @@ TRNSYS の Type99-AMeDAS コンポーネントのプラグインです。拡張�
 
 | ファイル | 内容 |
 |---|---|
-| `ExtAMeDAS-Setup-1.0.0.<ビルド番号>.exe` | インストーラー（日本語・英語） |
+| `ExtAMeDAS-Setup-1.0.1.<ビルド番号>.exe` | インストーラー（日本語・英語） |
 | `ExtAMeDAS-ja-JP.html` | マニュアル（日本語） |
 | `ExtAMeDAS-en-US.html` | マニュアル（英語） |
 
@@ -140,7 +140,7 @@ TRNSYS の Type99-AMeDAS コンポーネントのプラグインです。拡張�
 
 ### インストール
 
-1. `ExtAMeDAS-Setup-1.0.0.<ビルド番号>.exe` を実行し（管理者の権限が必要です）、インストール先に TRNSYS 18 のフォルダ（通常は `C:\TRNSYS18`）を選びます。
+1. `ExtAMeDAS-Setup-1.0.1.<ビルド番号>.exe` を実行し（管理者の権限が必要です）、インストール先に TRNSYS 18 のフォルダ（通常は `C:\TRNSYS18`）を選びます。
 2. Simulation Studio の Direct Access Toolbar の **Quattro → Weather Data Reading and Processing → Standard Format with Map → Japan** に、Type99-AMeDAS のコンポーネントが追加されます。
 3. コンポーネントを開き、マジックスティックのボタンでプラグインを起動して、**Preferences**（基本設定）で標準年のファイルを設定します。
 
