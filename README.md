@@ -18,7 +18,7 @@ Download the installer and the manual from [Releases](https://github.com/TRNSYSJ
 
 | File | Contents |
 |---|---|
-| `ExtAMeDAS-Setup-1.0.1.<build>.exe` | Installer (English / Japanese) |
+| `ExtAMeDAS-Setup-1.1.0.<build>.exe` | Installer (English / Japanese) |
 | `ExtAMeDAS-en-US.html` | Manual (English) |
 | `ExtAMeDAS-ja-JP.html` | Manual (Japanese) |
 
@@ -28,7 +28,7 @@ The manual is also installed with the plug-in, and opens with Help (F1 key) in t
 
 - **EA weather data in .wea and .wea2 formats**: the 1995, 2000, 2010 and 2020 standard years and the 2086 future edition. The format is detected from the file contents, and a file of a different edition is not accepted.
 - **Station selection on a map**: GSI Tiles (pale map). Search by English name, Japanese name, kana reading or station number.
-- **Charts**: the annual data, the passive climatic chart and the daily average annual data (moving averages, coldest and hottest days). Switch the range (3 days to 1 year), show or hide data with the legend, and save the image as PNG or SVG, or copy it.
+- **Charts**: the annual data, the passive climatic chart and the daily average annual data (moving averages, coldest and hottest days). Switch the range (3 days to 1 year), show or hide data with the legend, and save or copy the image as PNG or SVG.
 - **Heating period**: the period in which the moving average of the daily mean temperature is 15 °C or lower is shaded. The legend shows the dates and the simulation times [h] (e.g. "11/21–4/13 (7777–2472 h)").
 - **Type99 file (.99)**: written to `Weather\JP-AMeDAS` in the TRNSYS 18 folder and set in the component. The file name contains the standard year and the format (e.g. `EA2020-wea2_3630_TOKYO.99`), and the component title becomes the English name of the station (e.g. TOKYO).
 - **Two-year .99 option**: with a time step shorter than 1 hour, Type99 can stop at hour 8,760 in a simulation that goes past the end of the year. Select 2 years (17,520 h) in Preferences to avoid this.
@@ -55,7 +55,7 @@ The station information (station name, latitude, longitude, elevation, kana read
 
 ### Installation
 
-1. Run `ExtAMeDAS-Setup-1.0.1.<build>.exe` (administrator privileges are required) and select the TRNSYS 18 folder (usually `C:\TRNSYS18`).
+1. Run `ExtAMeDAS-Setup-1.1.0.<build>.exe` (administrator privileges are required) and select the TRNSYS 18 folder (usually `C:\TRNSYS18`).
 2. The Type99-AMeDAS component is added to **Quattro > Weather Data Reading and Processing > Standard Format with Map > Japan** in the Direct Access Toolbar of Simulation Studio.
 3. Open the component, click the magic stick button, and set the standard year file in **Preferences**.
 
@@ -103,7 +103,7 @@ TRNSYS の Type99-AMeDAS コンポーネントのプラグインです。拡張�
 
 | ファイル | 内容 |
 |---|---|
-| `ExtAMeDAS-Setup-1.0.1.<ビルド番号>.exe` | インストーラー（日本語・英語） |
+| `ExtAMeDAS-Setup-1.1.0.<ビルド番号>.exe` | インストーラー（日本語・英語） |
 | `ExtAMeDAS-ja-JP.html` | マニュアル（日本語） |
 | `ExtAMeDAS-en-US.html` | マニュアル（英語） |
 
@@ -113,7 +113,7 @@ TRNSYS の Type99-AMeDAS コンポーネントのプラグインです。拡張�
 
 - **.wea と .wea2 に対応**：1995年版・2000年版・2010年版・2020年版の標準年と、2086年将来版。形式はファイルの中身で判定し、年版の違うファイルは設定しません。
 - **地図で地点を選択**：国土地理院の地理院タイル（淡色地図）。地点名・ヨミガナ（ひらがなでも可）・英語表記・地点番号で検索できます。
-- **チャート**：年間データ、パッシブ気候図、日平均年間データ（移動平均、日平均最寒日・最暑日）。表示期間の切り替え（3日～1年）、凡例による表示・非表示の切り替え、画像の保存（PNG / SVG）・コピーができます。
+- **チャート**：年間データ、パッシブ気候図、日平均年間データ（移動平均、日平均最寒日・最暑日）。表示期間の切り替え（3日～1年）、凡例による表示・非表示の切り替え、画像の保存・コピー（PNG / SVG）ができます。
 - **暖房期間の表示**：日平均気温の移動平均が 15 ℃以下の期間を背景に塗ります。凡例に期間と TRNSYS のシミュレーションの時刻 [h] を表示します（例: 「暖房期間 11/21～4/13（7777～2472 h）」）。
 - **Type99 の気象データ（.99）**：TRNSYS 18 のフォルダの `Weather\JP-AMeDAS` に書き出し、コンポーネントに設定します。ファイル名には標準年と形式が入り（例: `EA2020-wea2_3630_TOKYO.99`）、コンポーネントの名前は地点の英語表記（例: TOKYO）になります。
 - **2 年分の .99**：タイムステップが 1 時間より短く、年をまたいで計算すると、Type99 が 8,760 時で止まることがあります。基本設定で 2 years (17,520 h) を選ぶと避けられます。
@@ -140,7 +140,7 @@ TRNSYS の Type99-AMeDAS コンポーネントのプラグインです。拡張�
 
 ### インストール
 
-1. `ExtAMeDAS-Setup-1.0.1.<ビルド番号>.exe` を実行し（管理者の権限が必要です）、インストール先に TRNSYS 18 のフォルダ（通常は `C:\TRNSYS18`）を選びます。
+1. `ExtAMeDAS-Setup-1.1.0.<ビルド番号>.exe` を実行し（管理者の権限が必要です）、インストール先に TRNSYS 18 のフォルダ（通常は `C:\TRNSYS18`）を選びます。
 2. Simulation Studio の Direct Access Toolbar の **Quattro → Weather Data Reading and Processing → Standard Format with Map → Japan** に、Type99-AMeDAS のコンポーネントが追加されます。
 3. コンポーネントを開き、マジックスティックのボタンでプラグインを起動して、**Preferences**（基本設定）で標準年のファイルを設定します。
 
